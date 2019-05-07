@@ -622,7 +622,7 @@ a:hover {
   position: absolute;
 }
 
-.intro .overlay-intro {
+.intro .overlay-intro, .blog-overlay {
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 0;
@@ -631,6 +631,10 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: .9;
+}
+
+.blog-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .intro .intro-title {
