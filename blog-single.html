@@ -8,9 +8,15 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+
   <!-- Favicons -->
   <link href="img/qr.png" rel="icon">
   <link href="img/qr.png" rel="apple-touch-icon">
+
+  <!-- Themify Icons -->
+  <link rel="stylesheet" href="./font/themify-icons/themify-icons.css">
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -80,7 +86,9 @@
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h2 class="intro-title mb-4">Blog Details</h2>
+          <h2 class="intro-title mb-4">Blog Details</h2><p class="text-center">
+              <i class="fas fa-angle-double-down down-arrow"></i>
+          </p>
         </div>
       </div>
     </div>
@@ -98,58 +106,31 @@
             </div>
             <div class="post-meta">
               <h1 class="article-title">Rubber Duck Debugging</h1>
-              <ul>
-                <li>
-                  <span class="ion-ios-person"></span>
-                  <a href="#">Jason London</a>
-                </li>
-              </ul>
             </div>
             <div class="article-content">
-              <p>
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum
-                porta. Quisque velit
-                nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque
-                nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                Nulla quis lorem ut libero malesuada feugiat.
-              </p>
-              <p>
-                Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris blandit
-                aliquet elit, eget tincidunt
-                nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Donec sollicitudin molestie malesuada.
-              </p>
-              <p>
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Praesent
-                sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                sem. Donec rutrum congue leo eget malesuada.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.
-                Curabitur arcu erat,
-                accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor
-                volutpat. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium
-                ut lacinia in, elementum id enim.
-              </p>
-              <blockquote class="blockquote">
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                </p>
-              </blockquote>
-              <p>
-                Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris blandit
-                aliquet elit, eget tincidunt
-                nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Donec sollicitudin molestie malesuada.
-              </p>
+                <p>A rubber duck is the strongest tool in a programmer's debugging arsenal.</p>
+
+                <p>It's a killer desk accessory, a surefire way to test the safety of nearby water, and - most importantly - the quickest way to get to the heart of a problem.</p>
+                
+                <p>Even if you've never heard of the term, it's likely that you've used rubber duck debugging before. Although the concept was first popularized in the book <em>The Pragmatic Programmer</em>, it's been around for as long as programming itself, and it's quickly become my favorite way to tackle a bug or a logic problem.</p>
+                
+                <p>The idea behind it it simple. Whenever you run into a problem with your code, take a moment to stop and explain what you're trying to to do a rubber duck.</p>
+                
+                <p>It doesn't have to be a physical rubber duck, although the ability to test the safety of any nearby water is a pretty great bonus. In this case a rubber duck can refer to anything - your coffee cup, the wall, or even a poor unsuspecting coworker. The key here is that whatever you're using, it must be inanimate.</p>
+                
+                <p>Or, if you're using a coworker, at least willing to pretend.</p>
+                
+                <p>It might sound weird, but the logic behind it is sound. It's a well known phenomenon that people will often miss mistakes in their own work, and that goes doubly for programming! Whether it's a missing semicolon or a mistaken leap in logic, you often won't see what's going on until someone else points it out to you.</p>
+                
+                <p>Luckily, you can shortcut that by grabbing a rubber duck and walking it through your code. Usually even just the simple act of stepping back and trying to explain what you're doing will help you see what's actually going on, and you'll walk away with either a solution or a good idea of what steps you have to take next.</p>
+                
+                <p>So the next time the console or the inspector lets you down, before you rage into the silent, uncaring void, grab a duck.</p>
             </div>
           </div>
         </div>
           <div class="col-md-4">
             <div class="widget-sidebar">
-              <h5 class="sidebar-title">ARTICLES</h5>
+              <h5 class="sidebar-title text-center">ARTICLES</h5>
               <div class="sidebar-content">
                 <ul class="list-sidebar">
                   <li>
@@ -178,26 +159,25 @@
   </section>
   <!--/ Section Blog-Single End /-->
 
-  <!--/ Section Contact-Footer Star /-->
-  <!-- <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
+    <!-- footer start -->
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="footer-icons">
+                  <a target="_blank" href="https://www.linkedin.com/in/mrpooledev/"><i class="ti-linkedin"></i></a>
+                  <a target="_blank" href="https://github.com/mrpoole"><i class="ti-github"></i></a>
+                  <a target="_blank" href="https://www.instagram.com/belleofthebalrog/"><i class="ti-instagram"></i></a>
+                  <a target="_blank" href="#"><i class="ti-file"></i></a>
+              </div>
+              <div class="copyright-box">
+                <p class="copyright">&copy; Copyright <strong>Michelle Poole</strong>. All Rights Reserved</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-  </section> -->
-  <!--/ Section Contact-footer End /-->
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
+      </footer>
+      <!-- footer end -->
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
