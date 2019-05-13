@@ -442,6 +442,7 @@ a:hover {
   position: relative;
   padding-right: 10px;
   padding-left: 0;
+  font-size: .7rem;
 }
 
 .navbar-b.navbar-trans .nav-link,
@@ -662,17 +663,19 @@ a:hover {
 }
 
 .intro .intro-title {
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-weight: 700;
   font-size: 3rem;
   letter-spacing: .2rem;
-  line-height: 90px;
+  line-height: 4.5rem;
 }
 
 .intro .intro-subtitle {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
   font-weight: 300;
+  line-height: 26px;
 }
 
 .intro .text-slider-items {
@@ -1050,6 +1053,7 @@ a:hover {
 }
 
 .article-content {
+  font-family: 'Open Sans', sans-serif;
   text-align: justify;
   font-size: .8rem;
   line-height: 1.6em;
@@ -1058,6 +1062,7 @@ a:hover {
 .article-content > h4 {
   margin-top: 2rem;
   margin-bottom: .5rem;
+  font-weight: bold;
 }
 
 .article-title {
@@ -1403,6 +1408,15 @@ footer .credits a {
   .box-comments .list-comments .comment-author {
     font-size: 1.5rem;
   }
+
+  .article-content > h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .poem {
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 767px) {
@@ -1436,6 +1450,10 @@ footer .credits a {
 @media (max-width: 650px) {
   .qr-img {
     left: 12vw;
+  }
+
+  .poem {
+    margin-left: 0;
   }
 }
 
@@ -1501,17 +1519,37 @@ footer .credits a {
   .qr-img {
     left: 3vw;
   }
+
+  .intro .intro-title {
+    line-height: 3.2rem;
+  }
 }
 
 @media (max-width: 420px) {
   .qr-img {
     left: 2vw;
   }
+
+  .article-content {
+    font-size: .9rem;
+  }
 }
 
 @media (max-width: 415px) {
   .qr-img {
     left: 3.5vw;
+  }
+
+  .article-content {
+    font-size: 1rem;
+  }
+
+  .article-content > h4 {
+    font-size: 1.4rem;
+  }
+
+  .container .mobile-subtitle {
+    width: 80%;
   }
 }
 
@@ -1531,10 +1569,18 @@ footer .credits a {
   .qr-img {
     height: 15rem;
   }
+
+  .intro-subtitle {
+    letter-spacing: 1px;
+  }
 }
 
 @media (max-width: 325px) {
   .qr-img {
     height: 13rem;
+  }
+
+  .article-content {
+    font-size: .95rem;
   }
 }
