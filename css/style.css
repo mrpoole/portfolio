@@ -893,6 +893,25 @@ a:hover {
   padding: 20px 48px;
 }
 
+.work-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pocketstatz {
+  height: 250px;
+}
+
+.employee {
+  padding: 10px;
+  padding-bottom: 50px;  
+}
+
+.tech {
+  border-top: 1px solid #f2f2f2;
+}
+
 /*======================================
 //--//-->   TESTIMONIALS
 ======================================*/
