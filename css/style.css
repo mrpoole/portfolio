@@ -754,6 +754,17 @@ a:hover {
   margin: 0 auto;
 }
 
+.about-icons {
+  text-align: right;
+}
+
+.about-icons > a {
+  margin: 2% 2% 10px 0;
+}
+
+.about-icons > a:hover {
+  color: #ffc039;
+}
 /*======================================
 //--//-->   SERVICES
 ======================================*/
