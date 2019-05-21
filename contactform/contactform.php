@@ -8,7 +8,7 @@
 /***************** Configuration *****************/
 
   // Replace with your real receiving email address
-  $contact_email_to = "michelle.poole.email@gmail.com";
+  $contact_email_to = "mdevmailer76@gmail.com";
 
   // Title prefixes
   $subject_title = "Contact Form Message:";
